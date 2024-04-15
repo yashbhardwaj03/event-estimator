@@ -1,0 +1,11 @@
+@keyframes move-blob {
+  0% { transform: translate(0, 0); }
+  50% { transform: translate(20px, 20px); }
+  100% { transform: translate(0, 0); }
+}
+
+.animate-blob {
+  animation: move-blob 2s ease-in-out infinite;
+  filter: blur(20px); /* Adjust the blur radius as needed */
+  box-shadow: 0 0 50px 20px rgba(71, 75, 255, 0.5); 
+}
