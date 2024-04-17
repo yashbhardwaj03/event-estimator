@@ -1,0 +1,178 @@
+{
+    "Celebrations": [
+        "Venue rental",
+        "Food",
+        "Entertainment",
+        "Decorations",
+        "Invitations/Cards",
+        "Favors/Gifts Type"
+    ],
+    "Parties": [
+        "Venue rental",
+        "Food",
+        "Decorations",
+        "Entertainment",
+        "Favors/Gifts Type"
+    ],
+    "Gatherings": [
+        "Venue rental",
+        "Food",
+        "Entertainment",
+        "Decorations",
+        "Miscellaneous Expenses"
+    ],
+    "Conferences and Conventions": [
+        "Venue rental",
+        "Audio-visual equipment",
+        "Speaker fees",
+        "Food",
+        "Marketing/Promotion ",
+        "Registration",
+        "Conference Expenses"
+    ],
+    "Weddings and Engagements": [
+        "Venue rental",
+        "Food",
+        "Decorations",
+        "Photography/Videography",
+        "Wedding attire",
+        "Entertainment",
+        "Invitations/Stationery",
+        "Transportation",
+        "Favors/Gifts Type"
+    ],
+    "Religious Events and Ceremonies": [
+        "Venue rental",
+        "Donations",
+        "Decorations",
+        "Food",
+        "Religious attire",
+        "Favors/Gifts Type",
+        "Photography/Videography",
+        "Invitations/Stationery"
+    ],
+    "Workshops and Seminars": [
+        "Venue rental",
+        "Speaker fees",
+        "Supplies",
+        "Audio-visual Equipment",
+        "Refreshments",
+        "Marketing/Promotion"
+    ],
+    "Charity Events and Fundraisers": [
+        "Venue rental",
+        "Entertainment",
+        "Food",
+        "Marketing/Promotion",
+        "Registration",
+        "Security",
+        "Miscellaneous Expenses"
+    ],
+    "Festivals and Carnivals": [
+        "Venue rental",
+        "Entertainment",
+        "Security",
+        "Marketing/Promotion",
+        "Equipment Rentals",
+        "Licenses and Permits"
+    ],
+    "Sports Events and Tournaments": [
+        "Venue rental",
+        "Equipment",
+        "Registration",
+        "Awards",
+        "Health Services",
+        "Marketing/Promotion",
+        "Security"
+    ],
+    "Trips and Travel Events": [
+        "Venue Rental",
+        "Travel Expenses",
+        "Registration",
+        "Tour Guide",
+        "Food",
+        "Favors/Gifts Type",
+        "Health Services",
+        "Miscellaneous Expenses"
+    ],
+    "Art and Cultural Events": [
+        "Venue rental",
+        "Artist fees",
+        "Decorations",
+        "Marketing/Promotion",
+        "Registration",
+        "Refreshments",
+        "Supplies"
+    ],
+    "Educational Events": [
+        "Venue rental",
+        "Speaker fees",
+        "Supplies",
+        "Audio-visual Equipment ",
+        "Refreshments",
+        "Marketing/Promotion"
+    ],
+    "Corporate Events": [
+        "Venue rental",
+        "Food",
+        "Audio-visual Equipment",
+        "Team-building Activities",
+        "Travel Expenses",
+        "Marketing/Promotion",
+        "Speaker Fees",
+        "Entertainment"
+    ],
+    "Networking Events": [
+        "Venue rental",
+        "Food",
+        "Registration",
+        "Marketing/Promotion",
+        "Entertainment",
+        "Audio-visual Equipment",
+        "Miscellaneous Expenses"
+    ],
+    "Retreats and Camps": [
+        "Venue rental",
+        "Instructor fees",
+        "Travel Expenses",
+        "Team-building Activities",
+        "Supplies",
+        "Marketing/Promotion"
+    ],
+    "Food and Drink Events": [
+        "Venue rental",
+        "Food",
+        "Equipment",
+        "Marketing/Promotion",
+        "Favors/Gifts Type"
+    ],
+    "Health and Wellness Events": [
+        "Venue rental",
+        "Instructor fees",
+        "Equipment",
+        "Refreshments",
+        "Marketing/Promotion",
+        "Health Services",
+        "Miscellaneous Expenses"
+    ],
+    "Award Ceremonies and Galas": [
+        "Venue rental",
+        "Refreshments",
+        "Awards",
+        "Entertainment",
+        "Decorations",
+        "Photography/Videography",
+        "Invitations/Stationery",
+        "Marketing/Promotion"
+    ],
+    "Community Events": [
+        "Venue rental",
+        "Supplies",
+        "Entertainment",
+        "Food",
+        "Licenses and Permits",
+        "Marketing/Promotion",
+        "Refreshments",
+        "Security"
+    ]
+}

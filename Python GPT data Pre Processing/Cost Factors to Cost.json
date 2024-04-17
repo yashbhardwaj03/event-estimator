@@ -1,0 +1,834 @@
+{
+    "Venue Rental": {
+        "Venue Hall": {
+            "P": 50000,
+            "N": 20000,
+            "L": 5000
+        },
+        "Venue Field": {
+            "P": 30000,
+            "N": 15000,
+            "L": 5000
+        },
+        "Hotel Rooms": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Gallery": {
+            "P": 30000,
+            "N": 15000,
+            "L": 5000
+        },
+        "Theater": {
+            "P": 50000,
+            "N": 20000,
+            "L": 10000
+        },
+        "Lecture Hall": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Auditorium": {
+            "P": 30000,
+            "N": 15000,
+            "L": 5000
+        },
+        "Conference Center": {
+            "P": 50000,
+            "N": 20000,
+            "L": 10000
+        },
+        "Restaurant": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Campsite": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Winery": {
+            "P": 30000,
+            "N": 15000,
+            "L": 5000
+        },
+        "Kitchen": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Studio": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        }
+    },
+    "Food": {
+        "Catering": {
+            "Full-Service Catering": {
+                "Capacity": 100,
+                "P": 50000,
+                "N": 20000,
+                "L": 10000
+            },
+            "Buffet-Style Catering": {
+                "Capacity": 50,
+                "P": 40000,
+                "N": 15000,
+                "L": 8000
+            },
+            "Basic Catering": {
+                "Capacity": 20,
+                "P": 30000,
+                "N": 10000,
+                "L": 5000
+            }
+        },
+        "Alcohol/Wine Selection": {
+            "P": 50000,
+            "N": 20000,
+            "L": 10000
+        },
+        "Food Ingredients": {
+            "P": 30000,
+            "N": 15000,
+            "L": 5000
+        },
+        "Instructor Fees (for cooking classes)": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Equipment (for cooking classes)": {
+            "P": 30000,
+            "N": 15000,
+            "L": 5000
+        },
+        "Restaurant (for private dining)": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        }
+    },
+    "Instructor fees": {
+        "P": 20000,
+        "N": 10000,
+        "L": 5000
+    },
+    "Tour Guide fees": {
+        "P": 20000,
+        "N": 10000,
+        "L": 5000
+    },
+    "Entertainment": {
+        "DJ": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Live Band": {
+            "P": 50000,
+            "N": 30000,
+            "L": 10000
+        },
+        "Performers": {
+            "P": 30000,
+            "N": 20000,
+            "L": 10000
+        },
+        "Games": {
+            "P": 2000,
+            "N": 1000,
+            "L": 500
+        },
+        "Magician/Illusionist": {
+            "P": 30000,
+            "N": 20000,
+            "L": 10000
+        },
+        "Comedian": {
+            "P": 40000,
+            "N": 20000,
+            "L": 10000
+        },
+        "Fireworks Display": {
+            "P": 50000,
+            "N": 30000,
+            "L": 10000
+        },
+        "Photobooth": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Karaoke Machine": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        }
+    },
+    "Wedding attire": {
+        "P": 20000,
+        "N": 10000,
+        "L": 5000
+    },
+    "Religious attire": {
+        "P": 20000,
+        "N": 10000,
+        "L": 5000
+    },
+    "Decoration": {
+        "Flowers": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Balloons": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Lighting": {
+            "P": 30000,
+            "N": 15000,
+            "L": 5000
+        },
+        "Table Centerpieces": {
+            "P": 15000,
+            "N": 8000,
+            "L": 3000
+        },
+        "Theme Decorations": {
+            "P": 25000,
+            "N": 12000,
+            "L": 5000
+        },
+        "Backdrop": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Chair Covers/Sashes": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Candles/Candle Holders": {
+            "P": 8000,
+            "N": 4000,
+            "L": 1500
+        },
+        "Streamers/Banners": {
+            "P": 5000,
+            "N": 3000,
+            "L": 1000
+        },
+        "Props/Themed Accessories": {
+            "P": 15000,
+            "N": 8000,
+            "L": 3000
+        },
+        "Costume Rentals": {
+            "P": 3000,
+            "N": 1500,
+            "L": 500
+        },
+        "Chair Rentals": {
+            "P": 5000,
+            "N": 2500,
+            "L": 1000
+        },
+        "Table Rentals": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Linens/Chair Covers": {
+            "P": 8000,
+            "N": 4000,
+            "L": 1500
+        },
+        "Artwork/Art Installations": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Custom Signage": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Stage/Set Design": {
+            "P": 30000,
+            "N": 15000,
+            "L": 5000
+        }
+    },
+    "Invitations/Cards": {
+        "Design Complexity": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        },
+        "Material Quality": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Quantity": {
+            "P": 2000,
+            "N": 1000,
+            "L": 500
+        },
+        "Printing Technique": {
+            "P": 5000,
+            "N": 2000,
+            "L": 1000
+        },
+        "Customization Options": {
+            "P": 5000,
+            "N": 2000,
+            "L": 1000
+        },
+        "Envelopes": {
+            "P": 2000,
+            "N": 1000,
+            "L": 500
+        },
+        "Additional Features": {
+            "P": 10000,
+            "N": 10000,
+            "L": 10000
+        }
+    },
+    "Favors/Gifts Type": {
+        "Customized Gifts": {
+            "P": 500,
+            "N": 200,
+            "L": 50
+        },
+        "Themed Goodie Bags": {
+            "P": 300,
+            "N": 150,
+            "L": 50
+        },
+        "Personalized Keepsakes": {
+            "P": 1000,
+            "N": 500,
+            "L": 200
+        },
+        "Edible Treats": {
+            "P": 800,
+            "N": 400,
+            "L": 200
+        },
+        "DIY Crafts": {
+            "P": 500,
+            "N": 200,
+            "L": 50
+        }
+    },
+    "Miscellaneous Expenses": {
+        "Food and Drinks": {
+            "Catering": {
+                "P": 50000,
+                "N": 20000,
+                "L": 10000
+            },
+            "Bar Services": {
+                "P": 30000,
+                "N": 15000,
+                "L": 5000
+            },
+            "Specialty Items": {
+                "P": 10000,
+                "N": 5000,
+                "L": 2000
+            }
+        },
+        "Entertainment": {
+            "DJ or Live Band": {
+                "P": 30000,
+                "N": 15000,
+                "L": 5000
+            },
+            "Performer Fees": {
+                "P": 50000,
+                "N": 20000,
+                "L": 10000
+            },
+            "Equipment Rental": {
+                "P": 20000,
+                "N": 10000,
+                "L": 5000
+            }
+        },
+        "Decorations": {
+            "Flowers": {
+                "P": 20000,
+                "N": 10000,
+                "L": 5000
+            },
+            "Balloons": {
+                "P": 10000,
+                "N": 5000,
+                "L": 2000
+            },
+            "Centerpieces": {
+                "P": 15000,
+                "N": 7000,
+                "L": 3000
+            }
+        },
+        "Invitations/Stationery": {
+            "Printing": {
+                "P": 10000,
+                "N": 5000,
+                "L": 2000
+            },
+            "Design Fees": {
+                "P": 5000,
+                "N": 2000,
+                "L": 1000
+            },
+            "Postage": {
+                "P": 5000,
+                "N": 2000,
+                "L": 1000
+            }
+        },
+        "Party Favors/Gifts": {
+            "Gift Bags": {
+                "P": 10000,
+                "N": 5000,
+                "L": 2000
+            },
+            "Custom Gifts": {
+                "P": 20000,
+                "N": 10000,
+                "L": 5000
+            },
+            "Personalized Items": {
+                "P": 15000,
+                "N": 7000,
+                "L": 3000
+            }
+        },
+        "Transportation": {
+            "Vehicle Rental": {
+                "P": 20000,
+                "N": 10000,
+                "L": 5000
+            },
+            "Driver Fees": {
+                "P": 10000,
+                "N": 5000,
+                "L": 2000
+            },
+            "Fuel/Tolls": {
+                "P": 5000,
+                "N": 2000,
+                "L": 1000
+            }
+        }
+    },
+    "Audio-Visual Equipment": {
+        "Projectors": {
+            "P": 5000,
+            "N": 3000,
+            "L": 1000
+        },
+        "Screens": {
+            "P": 3000,
+            "N": 2000,
+            "L": 1000
+        },
+        "Sound Systems": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Microphones": {
+            "P": 2000,
+            "N": 1000,
+            "L": 500
+        },
+        "Lighting Equipment": {
+            "P": 5000,
+            "N": 3000,
+            "L": 1000
+        }
+    },
+    "Photography/Videography": {
+        "Photographer (per hour)": {
+            "P": 5000,
+            "N": 3000,
+            "L": 1000
+        },
+        "Videographer (per hour)": {
+            "P": 8000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Photography Package (full event)": {
+            "P": 50000,
+            "N": 30000,
+            "L": 10000
+        },
+        "Videography Package (full event)": {
+            "P": 80000,
+            "N": 50000,
+            "L": 20000
+        }
+    },
+    "Marketing": {
+        "Advertising": {
+            "P": 50000,
+            "N": 30000,
+            "L": 10000
+        },
+        "Print Materials": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Online Promotion": {
+            "P": 30000,
+            "N": 20000,
+            "L": 5000
+        },
+        "Signage/Banners": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Social Media Marketing": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        }
+    },
+    "Donations": {
+        "Online Portal": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Offline": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        }
+    },
+    "Registration": {
+        "Online Registration Platform": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Onsite Registration Setup": {
+            "P": 5000,
+            "N": 2000,
+            "L": 1000
+        },
+        "Registration Materials (Badges, Lanyards, etc.)": {
+            "P": 5000,
+            "N": 2000,
+            "L": 1000
+        },
+        "Registration Fees (for participants)": {
+            "P": 500,
+            "N": 200,
+            "L": 100
+        }
+    },
+    "Management": {
+        "Event Planning/Coordination Services": {
+            "P": 30000,
+            "N": 15000,
+            "L": 5000
+        },
+        "Project Management Software": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Event Staff/Assistants": {
+            "P": 500,
+            "N": 300,
+            "L": 100
+        }
+    },
+    "Security": {
+        "Security Personnel": {
+            "P": 1000,
+            "N": 500,
+            "L": 200
+        },
+        "Surveillance Equipment Rental": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Emergency Response Team": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        }
+    },
+    "Licenses and Permits": {
+        "Event Permit/License": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Alcohol License (if applicable)": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Music Performance License": {
+            "P": 5000,
+            "N": 2000,
+            "L": 1000
+        }
+    },
+    "Speaker fees": {
+        "P": 10000,
+        "N": 5000,
+        "L": 2000
+    },
+    "Equipment Rentals": {
+        "Audio-visual Equipment": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Sports Equipment": {
+            "P": 5000,
+            "N": 2000,
+            "L": 1000
+        },
+        "Event Furniture": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Catering Equipment": {
+            "P": 5000,
+            "N": 2000,
+            "L": 1000
+        }
+    },
+    "Awards": {
+        "Trophies": {
+            "P": 5000,
+            "N": 2000,
+            "L": 1000
+        },
+        "Medals": {
+            "P": 2000,
+            "N": 1000,
+            "L": 500
+        },
+        "Plaques": {
+            "P": 3000,
+            "N": 1500,
+            "L": 800
+        },
+        "Certificates": {
+            "P": 1000,
+            "N": 500,
+            "L": 300
+        }
+    },
+    "Team-building Activities": {
+        "Ropes Course": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Scavenger Hunt": {
+            "P": 15000,
+            "N": 8000,
+            "L": 3000
+        },
+        "Team Games": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Workshops": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        }
+    },
+    "Conference Expenses": {
+        "Travel": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        },
+        "Accomodation": {
+            "P": 15000,
+            "N": 8000,
+            "L": 3000
+        }
+    },
+    "Artist fees": {
+        "P": 50000,
+        "N": 20000,
+        "L": 500
+    },
+    "Travel Expenses": {
+        "Travel": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        },
+        "Accomodation": {
+            "P": 15000,
+            "N": 8000,
+            "L": 3000
+        }
+    },
+    "Supplies": {
+        "Decorations": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        },
+        "Marketing/Promotion": {
+            "P": 10000,
+            "N": 5000,
+            "L": 1000
+        },
+        "Materials/Supplies": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        },
+        "Equipment": {
+            "P": 10000,
+            "N": 5000,
+            "L": 1000
+        },
+        "Transportation": {
+            "P": 20000,
+            "N": 10000,
+            "L": 2000
+        },
+        "Miscellaneous Expenses": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        }
+    },
+    "Refreshments": {
+        "Catering": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "Beverages": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Snacks/Food": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Desserts": {
+            "P": 5000,
+            "N": 2000,
+            "L": 1000
+        },
+        "Specialty Items": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Waitstaff/Service": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        }
+    },
+    "Health Services": {
+        "Medical Services": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        },
+        "First Aid": {
+            "P": 5000,
+            "N": 2000,
+            "L": 1000
+        },
+        "Health Screenings": {
+            "P": 10000,
+            "N": 5000,
+            "L": 2000
+        },
+        "Mental Health Services": {
+            "P": 20000,
+            "N": 10000,
+            "L": 5000
+        }
+    },
+    "Utensils": {
+        "Cooking Utensils": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        },
+        "Tableware": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        },
+        "Cutlery": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        },
+        "Serveware": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        }
+    },
+    "Volunteer Expenses": {
+        "T-shirts/Apparel": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        },
+        "Refreshments": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        },
+        "Transportation": {
+            "P": 10000,
+            "N": 5000,
+            "L": 1000
+        },
+        "Recognition/Gifts": {
+            "P": 10000,
+            "N": 5000,
+            "L": 1000
+        },
+        "Training/Materials": {
+            "P": 5000,
+            "N": 2000,
+            "L": 500
+        }
+    }
+}

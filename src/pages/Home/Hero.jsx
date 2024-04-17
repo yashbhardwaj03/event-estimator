@@ -1,7 +1,7 @@
 import React from 'react';
 import { VscFeedback } from "react-icons/vsc";
 import { IoMdArrowRoundForward } from "react-icons/io";
-import AnimatedBlob from './AnimatedBlob';
+import AnimatedBlob from '../../components/AnimatedBlob';
 import './Hero.css';
 
 function Hero() {
