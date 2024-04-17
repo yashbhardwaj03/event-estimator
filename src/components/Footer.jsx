@@ -126,7 +126,7 @@ export default function Footer() {
               className=" flex justify-center text-white cursor-pointer font-semibold uppercase md:justify-start">
               Useful links
             </h6>
-            <hr class="h-px mb-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+            <hr className="h-px mb-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
             <p className="mb-4">
               <a className="text-gray-400 hover:text-white cursor-pointer"
               >Create New Event</a>
@@ -147,7 +147,7 @@ export default function Footer() {
               className="flex justify-center font-semibold uppercase md:justify-start text-white cursor-pointer">
               Contact
             </h6>
-            <hr class="h-px mb-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+            <hr className="h-px mb-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
             <p className="mb-4 flex items-center justify-center md:justify-start text-gray-400">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

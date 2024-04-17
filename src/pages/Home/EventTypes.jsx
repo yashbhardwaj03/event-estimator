@@ -1,8 +1,8 @@
 // components/EventTypes.jsx
 import React, { useState, useEffect } from 'react';
-import Card from './Card';
-import FilterButton from './FilterButton';
-import SearchBar from './SearchBar';
+import Card from '../../components/Card';
+import FilterButton from '../../components/FilterButton';
+import SearchBar from '../../components/SearchBar';
 
 function EventTypes({ events, searchTerm }) {
   const [categories, setCategories] = useState([]);

@@ -1,0 +1,835 @@
+{
+    "Venue Rental": {
+      "Venue Hall": {
+        "P": "50,000 - 100,000 INR",
+        "N": "20,000 - 50,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Venue Field": {
+        "P": "30,000 - 80,000 INR",
+        "N": "15,000 - 40,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Hotel Rooms": {
+        "P": "10,000 - 20,000 INR per room per night",
+        "N": "5,000 - 10,000 INR per room per night",
+        "L": "2,000 - 5,000 INR per room per night"
+      },
+      "Gallery": {
+        "P": "30,000 - 80,000 INR",
+        "N": "15,000 - 40,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Theater": {
+        "P": "50,000 - 150,000 INR",
+        "N": "20,000 - 50,000 INR",
+        "L": "10,000 - 20,000 INR"
+      },
+      "Lecture Hall": {
+        "P": "20,000 - 50,000 INR",
+        "N": "10,000 - 30,000 INR",
+        "L": "5,000 - 15,000 INR"
+      },
+      "Auditorium": {
+        "P": "30,000 - 80,000 INR",
+        "N": "15,000 - 40,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Conference Center": {
+        "P": "50,000 - 150,000 INR",
+        "N": "20,000 - 50,000 INR",
+        "L": "10,000 - 20,000 INR"
+      },
+      "Restaurant": {
+        "P": "20,000 - 50,000 INR",
+        "N": "10,000 - 30,000 INR",
+        "L": "5,000 - 15,000 INR"
+      },
+      "Campsite": {
+        "P": "10,000 - 30,000 INR",
+        "N": "5,000 - 20,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Winery": {
+        "P": "30,000 - 80,000 INR",
+        "N": "15,000 - 40,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Kitchen": {
+        "P": "10,000 - 30,000 INR",
+        "N": "5,000 - 20,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Studio": {
+        "P": "20,000 - 50,000 INR",
+        "N": "10,000 - 30,000 INR",
+        "L": "5,000 - 15,000 INR"
+      }
+    },
+    "Food": {
+      "Catering": {
+        "Full-Service Catering": {
+          "Capacity": "100-500 guests",
+          "P": "50,000 - 200,000 INR",
+          "N": "20,000 - 100,000 INR",
+          "L": "10,000 - 50,000 INR"
+        },
+        "Buffet-Style Catering": {
+          "Capacity": "50-300 guests",
+          "P": "40,000 - 150,000 INR",
+          "N": "15,000 - 80,000 INR",
+          "L": "8,000 - 40,000 INR"
+        },
+        "Basic Catering": {
+          "Capacity": "20-100 guests",
+          "P": "30,000 - 100,000 INR",
+          "N": "10,000 - 50,000 INR",
+          "L": "5,000 - 30,000 INR"
+        }
+      },
+      "Alcohol/Wine Selection": {
+        "P": "50,000 - 150,000 INR (premium selection)",
+        "N": "20,000 - 80,000 INR (standard selection)",
+        "L": "10,000 - 40,000 INR (budget selection)"
+      },
+      "Food Ingredients": {
+        "P": "30,000 - 100,000 INR (for gourmet ingredients)",
+        "N": "15,000 - 50,000 INR (for high-quality ingredients)",
+        "L": "5,000 - 30,000 INR (for basic ingredients)"
+      },
+      "Instructor Fees (for cooking classes)": {
+        "P": "20,000 - 50,000 INR per session",
+        "N": "10,000 - 30,000 INR per session",
+        "L": "5,000 - 20,000 INR per session"
+      },
+      "Equipment (for cooking classes)": {
+        "P": "30,000 - 80,000 INR (for high-end kitchen equipment)",
+        "N": "15,000 - 50,000 INR (for standard kitchen equipment)",
+        "L": "5,000 - 30,000 INR (for basic kitchen equipment)"
+      },
+      "Restaurant (for private dining)": {
+        "P": "20,000 - 100,000 INR (exclusive dining experience)",
+        "N": "10,000 - 50,000 INR (upscale restaurant)",
+        "L": "5,000 - 30,000 INR (casual dining)"
+      }
+    },
+    "Instructor fees": {
+      "P": "20,000 - 50,000 INR",
+      "N": "10,000 - 30,000 INR",
+      "L": "5,000 - 20,000 INR"
+    },
+    "Tour Guide fees": {
+      "P": "20,000 - 50,000 INR",
+      "N": "10,000 - 30,000 INR",
+      "L": "5,000 - 20,000 INR"
+    },
+    "Entertainment": {
+      "DJ": {
+        "P": "20,000 - 50,000 INR",
+        "N": "10,000 - 30,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Live Band": {
+        "P": "50,000 - 150,000 INR",
+        "N": "30,000 - 80,000 INR",
+        "L": "10,000 - 30,000 INR"
+      },
+      "Performers": {
+        "P": "30,000 - 100,000 INR per performance",
+        "N": "20,000 - 50,000 INR per performance",
+        "L": "10,000 - 20,000 INR per performance"
+      },
+      "Games": {
+        "P": "2,000 - 10,000 INR",
+        "N": "1,000 - 5,000 INR",
+        "L": "500 - 2,000 INR"
+      },
+      "Magician/Illusionist": {
+        "P": "30,000 - 80,000 INR",
+        "N": "20,000 - 50,000 INR",
+        "L": "10,000 - 20,000 INR"
+      },
+      "Comedian": {
+        "P": "40,000 - 100,000 INR",
+        "N": "20,000 - 50,000 INR",
+        "L": "10,000 - 30,000 INR"
+      },
+      "Fireworks Display": {
+        "P": "50,000 - 150,000 INR",
+        "N": "30,000 - 80,000 INR",
+        "L": "10,000 - 30,000 INR"
+      },
+      "Photobooth": {
+        "P": "20,000 - 50,000 INR",
+        "N": "10,000 - 30,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Karaoke Machine": {
+        "P": "10,000 - 30,000 INR",
+        "N": "5,000 - 20,000 INR",
+        "L": "2,000 - 10,000 INR"
+      }
+    },
+    "Wedding attire": {
+      "P": "20,000 - 50,000 INR",
+      "N": "10,000 - 30,000 INR",
+      "L": "5,000 - 20,000 INR"      
+    },
+    "Religious attire": {
+      "P": "20,000 - 50,000 INR",
+      "N": "10,000 - 30,000 INR",
+      "L": "5,000 - 20,000 INR"      
+    },
+
+    "Decoration": {
+      "Flowers": {
+        "P": "20,000 - 50,000 INR",
+        "N": "10,000 - 30,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Balloons": {
+        "P": "10,000 - 30,000 INR",
+        "N": "5,000 - 20,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Lighting": {
+        "P": "30,000 - 80,000 INR",
+        "N": "15,000 - 40,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Table Centerpieces": {
+        "P": "15,000 - 40,000 INR",
+        "N": "8,000 - 25,000 INR",
+        "L": "3,000 - 15,000 INR"
+      },
+      "Theme Decorations": {
+        "P": "25,000 - 60,000 INR",
+        "N": "12,000 - 35,000 INR",
+        "L": "5,000 - 25,000 INR"
+      },
+      "Backdrop": {
+        "P": "20,000 - 50,000 INR",
+        "N": "10,000 - 30,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Chair Covers/Sashes": {
+        "P": "10,000 - 25,000 INR",
+        "N": "5,000 - 15,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Candles/Candle Holders": {
+        "P": "8,000 - 20,000 INR",
+        "N": "4,000 - 12,000 INR",
+        "L": "1,500 - 8,000 INR"
+      },
+      "Streamers/Banners": {
+        "P": "5,000 - 15,000 INR",
+        "N": "3,000 - 10,000 INR",
+        "L": "1,000 - 5,000 INR"
+      },
+      "Props/Themed Accessories": {
+        "P": "15,000 - 40,000 INR",
+        "N": "8,000 - 25,000 INR",
+        "L": "3,000 - 15,000 INR"
+      },
+      "Costume Rentals": {
+        "P": "3,000 - 10,000 INR",
+        "N": "1,500 - 7,000 INR",
+        "L": "500 - 3,000 INR"
+      },
+      "Chair Rentals": {
+        "P": "5,000 - 15,000 INR",
+        "N": "2,500 - 10,000 INR",
+        "L": "1,000 - 5,000 INR"
+      },
+      "Table Rentals": {
+        "P": "10,000 - 30,000 INR",
+        "N": "5,000 - 20,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Linens/Chair Covers": {
+        "P": "8,000 - 20,000 INR",
+        "N": "4,000 - 15,000 INR",
+        "L": "1,500 - 8,000 INR"
+      },
+      "Artwork/Art Installations": {
+        "P": "20,000 - 50,000 INR",
+        "N": "10,000 - 30,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Custom Signage": {
+        "P": "10,000 - 25,000 INR",
+        "N": "5,000 - 15,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Stage/Set Design": {
+        "P": "30,000 - 80,000 INR",
+        "N": "15,000 - 50,000 INR",
+        "L": "5,000 - 25,000 INR"
+      }
+    },
+    "Invitations/Cards": {
+      "Design Complexity": {
+        "P": "5,000 - 20,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "500 - 5,000 INR"
+      },
+      "Material Quality": {
+        "P": "10,000 - 30,000 INR",
+        "N": "5,000 - 20,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Quantity": {
+        "P": "2,000 - 5,000 INR per 100 cards",
+        "N": "1,000 - 3,000 INR per 100 cards",
+        "L": "500 - 1,500 INR per 100 cards"
+      },
+      "Printing Technique": {
+        "P": "5,000 - 15,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "1,000 - 5,000 INR"
+      },
+      "Customization Options": {
+        "P": "5,000 - 20,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "1,000 - 5,000 INR"
+      },
+      "Envelopes": {
+        "P": "2,000 - 5,000 INR per 100 envelopes",
+        "N": "1,000 - 3,000 INR per 100 envelopes",
+        "L": "500 - 1,500 INR per 100 envelopes"
+      },
+      "Additional Features": {
+        "P": "Variable - Depends on specific feature (e.g., foil stamping, embossing)",
+        "N": "Variable - Depends on specific feature",
+        "L": "Variable - Depends on specific feature"
+      }
+    },
+      "Favors/Gifts Type": {
+        "Customized Gifts": {
+          "P": "500 - 2000 INR per piece",
+          "N": "200 - 800 INR per piece",
+          "L": "50 - 200 INR per piece"
+        },
+        "Themed Goodie Bags": {
+          "P": "300 - 1000 INR per bag",
+          "N": "150 - 500 INR per bag",
+          "L": "50 - 200 INR per bag"
+        },
+        "Personalized Keepsakes": {
+          "P": "1000 - 3000 INR per piece",
+          "N": "500 - 1500 INR per piece",
+          "L": "200 - 500 INR per piece"
+        },
+        "Edible Treats": {
+          "P": "800 - 2000 INR per package",
+          "N": "400 - 1000 INR per package",
+          "L": "200 - 500 INR per package"
+        },
+        "DIY Crafts": {
+          "P": "500 - 1500 INR per kit",
+          "N": "200 - 800 INR per kit",
+          "L": "50 - 300 INR per kit"
+        }
+    },
+    "Miscellaneous Expenses": {
+      "Food and Drinks": {
+        "Catering": {
+          "P": "50,000 - 200,000 INR",
+          "N": "20,000 - 100,000 INR",
+          "L": "10,000 - 50,000 INR"
+        },
+        "Bar Services": {
+          "P": "30,000 - 100,000 INR",
+          "N": "15,000 - 50,000 INR",
+          "L": "5,000 - 20,000 INR"
+        },
+        "Specialty Items": {
+          "P": "10,000 - 50,000 INR",
+          "N": "5,000 - 30,000 INR",
+          "L": "2,000 - 15,000 INR"
+        }
+      },
+      "Entertainment": {
+        "DJ or Live Band": {
+          "P": "30,000 - 100,000 INR",
+          "N": "15,000 - 50,000 INR",
+          "L": "5,000 - 20,000 INR"
+        },
+        "Performer Fees": {
+          "P": "50,000 - 200,000 INR",
+          "N": "20,000 - 100,000 INR",
+          "L": "10,000 - 50,000 INR"
+        },
+        "Equipment Rental": {
+          "P": "20,000 - 100,000 INR",
+          "N": "10,000 - 50,000 INR",
+          "L": "5,000 - 20,000 INR"
+        }
+      },
+      "Decorations": {
+        "Flowers": {
+          "P": "20,000 - 80,000 INR",
+          "N": "10,000 - 40,000 INR",
+          "L": "5,000 - 20,000 INR"
+        },
+        "Balloons": {
+          "P": "10,000 - 30,000 INR",
+          "N": "5,000 - 20,000 INR",
+          "L": "2,000 - 10,000 INR"
+        },
+        "Centerpieces": {
+          "P": "15,000 - 50,000 INR",
+          "N": "7,000 - 30,000 INR",
+          "L": "3,000 - 15,000 INR"
+        }
+      },
+      "Invitations/Stationery": {
+        "Printing": {
+          "P": "10,000 - 30,000 INR",
+          "N": "5,000 - 20,000 INR",
+          "L": "2,000 - 10,000 INR"
+        },
+        "Design Fees": {
+          "P": "5,000 - 20,000 INR",
+          "N": "2,000 - 10,000 INR",
+          "L": "1,000 - 5,000 INR"
+        },
+        "Postage": {
+          "P": "5,000 - 15,000 INR",
+          "N": "2,000 - 10,000 INR",
+          "L": "1,000 - 5,000 INR"
+        }
+      },
+      "Party Favors/Gifts": {
+        "Gift Bags": {
+          "P": "10,000 - 30,000 INR",
+          "N": "5,000 - 20,000 INR",
+          "L": "2,000 - 10,000 INR"
+        },
+        "Custom Gifts": {
+          "P": "20,000 - 80,000 INR",
+          "N": "10,000 - 40,000 INR",
+          "L": "5,000 - 20,000 INR"
+        },
+        "Personalized Items": {
+          "P": "15,000 - 50,000 INR",
+          "N": "7,000 - 30,000 INR",
+          "L": "3,000 - 15,000 INR"
+        }
+      },
+      "Transportation": {
+        "Vehicle Rental": {
+          "P": "20,000 - 100,000 INR",
+          "N": "10,000 - 50,000 INR",
+          "L": "5,000 - 20,000 INR"
+        },
+        "Driver Fees": {
+          "P": "10,000 - 30,000 INR",
+          "N": "5,000 - 20,000 INR",
+          "L": "2,000 - 10,000 INR"
+        },
+        "Fuel/Tolls": {
+          "P": "5,000 - 20,000 INR",
+          "N": "2,000 - 10,000 INR",
+          "L": "1,000 - 5,000 INR"
+        }
+      }
+    },
+    "Audio-Visual Equipment": {
+      "Projectors": {
+        "P": "5,000 - 15,000 INR per day",
+        "N": "3,000 - 10,000 INR per day",
+        "L": "1,000 - 5,000 INR per day"
+      },
+      "Screens": {
+        "P": "3,000 - 10,000 INR per day",
+        "N": "2,000 - 7,000 INR per day",
+        "L": "1,000 - 4,000 INR per day"
+      },
+      "Sound Systems": {
+        "P": "10,000 - 30,000 INR per event",
+        "N": "5,000 - 20,000 INR per event",
+        "L": "2,000 - 10,000 INR per event"
+      },
+      "Microphones": {
+        "P": "2,000 - 8,000 INR per day",
+        "N": "1,000 - 5,000 INR per day",
+        "L": "500 - 3,000 INR per day"
+      },
+      "Lighting Equipment": {
+        "P": "5,000 - 20,000 INR per event",
+        "N": "3,000 - 15,000 INR per event",
+        "L": "1,000 - 5,000 INR per event"
+      }
+    },
+    "Photography/Videography": {
+      "Photographer (per hour)": {
+        "P": "5,000 - 15,000 INR per hour",
+        "N": "3,000 - 10,000 INR per hour",
+        "L": "1,000 - 5,000 INR per hour"
+      },
+      "Videographer (per hour)": {
+        "P": "8,000 - 20,000 INR per hour",
+        "N": "5,000 - 15,000 INR per hour",
+        "L": "2,000 - 8,000 INR per hour"
+      },
+      "Photography Package (full event)": {
+        "P": "50,000 - 150,000 INR",
+        "N": "30,000 - 100,000 INR",
+        "L": "10,000 - 50,000 INR"
+      },
+      "Videography Package (full event)": {
+        "P": "80,000 - 200,000 INR",
+        "N": "50,000 - 150,000 INR",
+        "L": "20,000 - 80,000 INR"
+      }
+    },
+    "Marketing": {
+      "Advertising": {
+        "P": "50,000 - 200,000 INR",
+        "N": "30,000 - 150,000 INR",
+        "L": "10,000 - 50,000 INR"
+      },
+      "Print Materials": {
+        "P": "20,000 - 100,000 INR",
+        "N": "10,000 - 50,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Online Promotion": {
+        "P": "30,000 - 150,000 INR",
+        "N": "20,000 - 100,000 INR",
+        "L": "5,000 - 30,000 INR"
+      },
+      "Signage/Banners": {
+        "P": "10,000 - 50,000 INR",
+        "N": "5,000 - 30,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Social Media Marketing": {
+        "P": "20,000 - 100,000 INR",
+        "N": "10,000 - 50,000 INR",
+        "L": "5,000 - 30,000 INR"
+      }
+    },
+    "Donations": {
+      "Online Portal": {
+        "P": "10,000 - 30,000 INR (annual subscription)",
+        "N": "5,000 - 20,000 INR (annual subscription)",
+        "L": "2,000 - 10,000 INR (annual subscription)"
+      },
+      "Offline": {
+        "P": "10,000 - 30,000 INR (annual subscription)",
+        "N": "5,000 - 20,000 INR (annual subscription)",
+        "L": "2,000 - 10,000 INR (annual subscription)"
+      }
+    },
+    "Registration": {
+      "Online Registration Platform": {
+        "P": "10,000 - 30,000 INR (annual subscription)",
+        "N": "5,000 - 20,000 INR (annual subscription)",
+        "L": "2,000 - 10,000 INR (annual subscription)"
+      },
+      "Onsite Registration Setup": {
+        "P": "5,000 - 15,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "1,000 - 5,000 INR"
+      },
+      "Registration Materials (Badges, Lanyards, etc.)": {
+        "P": "5,000 - 15,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "1,000 - 5,000 INR"
+      },
+      "Registration Fees (for participants)": {
+        "P": "500 - 2,000 INR per person",
+        "N": "200 - 1,000 INR per person",
+        "L": "100 - 500 INR per person"
+      }
+    },
+    "Management": {
+      "Event Planning/Coordination Services": {
+        "P": "30,000 - 100,000 INR",
+        "N": "15,000 - 50,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Project Management Software": {
+        "P": "20,000 - 50,000 INR (annual subscription)",
+        "N": "10,000 - 30,000 INR (annual subscription)",
+        "L": "5,000 - 15,000 INR (annual subscription)"
+      },
+      "Event Staff/Assistants": {
+        "P": "500 - 2,000 INR per staff member per hour",
+        "N": "300 - 1,000 INR per staff member per hour",
+        "L": "100 - 500 INR per staff member per hour"
+      }
+    },
+    "Security": {
+      "Security Personnel": {
+        "P": "1,000 - 5,000 INR per security personnel per hour",
+        "N": "500 - 2,000 INR per security personnel per hour",
+        "L": "200 - 1,000 INR per security personnel per hour"
+      },
+      "Surveillance Equipment Rental": {
+        "P": "10,000 - 30,000 INR",
+        "N": "5,000 - 20,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Emergency Response Team": {
+        "P": "20,000 - 50,000 INR (per event)",
+        "N": "10,000 - 30,000 INR (per event)",
+        "L": "5,000 - 15,000 INR (per event)"
+      }
+    },
+    "Licenses and Permits": {
+      "Event Permit/License": {
+        "P": "10,000 - 50,000 INR",
+        "N": "5,000 - 30,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Alcohol License (if applicable)": {
+        "P": "20,000 - 100,000 INR",
+        "N": "10,000 - 50,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Music Performance License": {
+        "P": "5,000 - 20,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "1,000 - 5,000 INR"
+      }
+    },
+    "Speaker fees": {
+      "P": "10,000 - 30,000 INR",
+      "N": "5,000 - 20,000 INR",
+      "L": "2,000 - 10,000 INR"
+    },
+    "Equipment Rentals": {
+      "Audio-visual Equipment": {
+        "P": "10,000 - 30,000 INR",
+        "N": "5,000 - 20,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Sports Equipment": {
+        "P": "5,000 - 15,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "1,000 - 5,000 INR"
+      },
+      "Event Furniture": {
+        "P": "10,000 - 20,000 INR",
+        "N": "5,000 - 15,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Catering Equipment": {
+        "P": "5,000 - 15,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "1,000 - 5,000 INR"
+      }
+    },
+    "Awards": {
+      "Trophies": {
+        "P": "5,000 - 15,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "1,000 - 5,000 INR"
+      },
+      "Medals": {
+        "P": "2,000 - 8,000 INR",
+        "N": "1,000 - 5,000 INR",
+        "L": "500 - 3,000 INR"
+      },
+      "Plaques": {
+        "P": "3,000 - 10,000 INR",
+        "N": "1,500 - 7,000 INR",
+        "L": "800 - 4,000 INR"
+      },
+      "Certificates": {
+        "P": "1,000 - 5,000 INR",
+        "N": "500 - 3,000 INR",
+        "L": "300 - 1,500 INR"
+      }
+    },
+    "Team-building Activities": {
+      "Ropes Course": {
+        "P": "20,000 - 50,000 INR",
+        "N": "10,000 - 30,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Scavenger Hunt": {
+        "P": "15,000 - 40,000 INR",
+        "N": "8,000 - 25,000 INR",
+        "L": "3,000 - 15,000 INR"
+      },
+      "Team Games": {
+        "P": "10,000 - 30,000 INR",
+        "N": "5,000 - 20,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Workshops": {
+        "P": "10,000 - 30,000 INR",
+        "N": "5,000 - 20,000 INR",
+        "L": "2,000 - 10,000 INR"
+      }
+    },
+    "Conference Expenses":{
+      "Travel" : {
+        "P": "5,000 - 20,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "500 - 5,000 INR"
+      },
+      "Accomodation" : {
+        "P": "15,000 - 40,000 INR",
+        "N": "8,000 - 25,000 INR",
+        "L": "3,000 - 15,000 INR"
+      }
+    },
+    "Artist fees" : {
+      "P": "50,000 - 200,000 INR",
+      "N": "20,000 - 40,000 INR",
+      "L": "500 - 5,000 INR"
+    },
+    "Travel Expenses":{
+      "Travel" : {
+        "P": "5,000 - 20,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "500 - 5,000 INR"
+      },
+      "Accomodation" : {
+        "P": "15,000 - 40,000 INR",
+        "N": "8,000 - 25,000 INR",
+        "L": "3,000 - 15,000 INR"
+      }
+    },
+    "Supplies": {
+      "Decorations": {
+        "P": "5,000 - 20,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "500 - 5,000 INR"
+      },
+      "Marketing/Promotion": {
+        "P": "10,000 - 50,000 INR",
+        "N": "5,000 - 30,000 INR",
+        "L": "1,000 - 10,000 INR"
+      },
+      "Materials/Supplies": {
+        "P": "5,000 - 30,000 INR",
+        "N": "2,000 - 20,000 INR",
+        "L": "500 - 10,000 INR"
+      },
+      "Equipment": {
+        "P": "10,000 - 50,000 INR",
+        "N": "5,000 - 30,000 INR",
+        "L": "1,000 - 10,000 INR"
+      },
+      "Transportation": {
+        "P": "20,000 - 100,000 INR",
+        "N": "10,000 - 50,000 INR",
+        "L": "2,000 - 20,000 INR"
+      },
+      "Miscellaneous Expenses": {
+        "P": "5,000 - 30,000 INR",
+        "N": "2,000 - 20,000 INR",
+        "L": "500 - 10,000 INR"
+      }
+    },
+    "Refreshments": {
+      "Catering": {
+        "P": "20,000 - 100,000 INR",
+        "N": "10,000 - 50,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "Beverages": {
+        "P": "10,000 - 50,000 INR",
+        "N": "5,000 - 30,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Snacks/Food": {
+        "P": "10,000 - 50,000 INR",
+        "N": "5,000 - 30,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Desserts": {
+        "P": "5,000 - 30,000 INR",
+        "N": "2,000 - 20,000 INR",
+        "L": "1,000 - 5,000 INR"
+      },
+      "Specialty Items": {
+        "P": "10,000 - 50,000 INR",
+        "N": "5,000 - 30,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Waitstaff/Service": {
+        "P": "5,000 - 20,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "500 - 5,000 INR"
+      }
+    },
+    "Health Services": {
+      "Medical Services": {
+        "P": "20,000 - 100,000 INR",
+        "N": "10,000 - 50,000 INR",
+        "L": "5,000 - 20,000 INR"
+      },
+      "First Aid": {
+        "P": "5,000 - 20,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "1,000 - 5,000 INR"
+      },
+      "Health Screenings": {
+        "P": "10,000 - 50,000 INR",
+        "N": "5,000 - 30,000 INR",
+        "L": "2,000 - 10,000 INR"
+      },
+      "Mental Health Services": {
+        "P": "20,000 - 100,000 INR",
+        "N": "10,000 - 50,000 INR",
+        "L": "5,000 - 20,000 INR"
+      }
+    },
+    "Utensils": {
+      "Cooking Utensils": {
+        "P": "5,000 - 30,000 INR",
+        "N": "2,000 - 20,000 INR",
+        "L": "500 - 10,000 INR"
+      },
+      "Tableware": {
+        "P": "5,000 - 30,000 INR",
+        "N": "2,000 - 20,000 INR",
+        "L": "500 - 10,000 INR"
+      },
+      "Cutlery": {
+        "P": "5,000 - 30,000 INR",
+        "N": "2,000 - 20,000 INR",
+        "L": "500 - 10,000 INR"
+      },
+      "Serveware": {
+        "P": "5,000 - 30,000 INR",
+        "N": "2,000 - 20,000 INR",
+        "L": "500 - 10,000 INR"
+      }
+    },
+    "Volunteer Expenses": {
+      "T-shirts/Apparel": {
+        "P": "5,000 - 20,000 INR",
+        "N": "2,000 - 10,000 INR",
+        "L": "500 - 5,000 INR"
+      },
+      "Refreshments": {
+        "P": "5,000 - 30,000 INR",
+        "N": "2,000 - 20,000 INR",
+        "L": "500 - 10,000 INR"
+      },
+      "Transportation": {
+        "P": "10,000 - 50,000 INR",
+        "N": "5,000 - 30,000 INR",
+        "L": "1,000 - 10,000 INR"
+      },
+      "Recognition/Gifts": {
+        "P": "10,000 - 50,000 INR",
+        "N": "5,000 - 30,000 INR",
+        "L": "1,000 - 10,000 INR"
+      },
+      "Training/Materials": {
+        "P": "5,000 - 30,000 INR",
+        "N": "2,000 - 20,000 INR",
+        "L": "500 - 10,000 INR"
+      }
+    }
+  }
