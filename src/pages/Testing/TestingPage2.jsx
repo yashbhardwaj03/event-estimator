@@ -14,62 +14,43 @@ const PNLObject = ({ obj }) => {
     };
 
     return (
-        <div>
-            <label>
-                <input
-                    type="checkbox"
-                    checked={stateCurr === obj.P}
-                    onChange={() => handleCheckboxChange(obj.P)}
-                />
+        <div className="pricesContainer">
+            <div className="priceBox">
+                <input type="checkbox" checked={stateCurr === obj.P} className="checkBoxContainer"
+                onChange={() => handleCheckboxChange(obj.P)} />
                 Premium: {obj.P}
-            </label>
+            </div>
             <br />
-            <label>
-                <input
-                    type="checkbox"
-                    checked={stateCurr === obj.N}
-                    onChange={() => handleCheckboxChange(obj.N)}
-                />
+            <div className="priceBox">
+                <input type="checkbox" checked={stateCurr === obj.N} className="checkBoxContainer"
+                onChange={() => handleCheckboxChange(obj.N)} />
                 Normal: {obj.N}
-            </label>
+            </div>
             <br />
-            <label>
-                <input
-                    type="checkbox"
-                    checked={stateCurr === obj.L}
-                    onChange={() => handleCheckboxChange(obj.L)}
-                />
+            <div className="priceBox">
+                <input type="checkbox" checked={stateCurr === obj.L} className="checkBoxContainer"
+                onChange={() => handleCheckboxChange(obj.L)} />
                 Cost Effective: {obj.L}
-            </label>
+            </div>
         </div>
     );
 };
 
 const CostObjectTree = ({ name, obj }) => {
-    const [displayChildren, setDisplayChildren] = useState(false);
-
-    const toggleChildrenDisplay = () => {
-        setDisplayChildren(prevState => !prevState);
-    };
-
-    const toggleSelected = () => {
-        obj.selected = !obj.selected;
-        setDisplayChildren(obj.selected);
-    };
+    const [displayChildren, setDisplayChildren] = useState(obj.selected);
+    const toggleChildrenDisplay = () => {setDisplayChildren(prevState => !prevState);};
+    const toggleSelected = () => {obj.selected = !obj.selected; setDisplayChildren(obj.selected);};
     // Check if the object has 'P', 'N', and 'L' keys
     const isPNLObj = obj.hasOwnProperty('P') && obj.hasOwnProperty('N') && obj.hasOwnProperty('L');
 
     return (
-        <li>
-            <input
-                type="checkbox"
-                checked={obj.selected}
-                onChange={toggleSelected}
-            />
-            {name}
-
+        <div className="costObjTreeContainer" style={isPNLObj ? {}:{flexDirection: "column"}}>
+            <div className="itemHead">
+                <input type="checkbox" checked={obj.selected} className="checkBoxContainer"
+                onChange={toggleSelected}/> {name}
+            </div>
             {obj.selected && Object.keys(obj).length > 0 && (
-                <ul style={{ paddingLeft: '20px' }}>
+                <ul style={{ paddingLeft: '20px',width:'100%' }}>
                     {isPNLObj ? <PNLObject obj={obj} />
                     : (Object.keys(obj).map((key, index) => (
                         key !== 'selected' && key !== 'name' && (
@@ -80,16 +61,32 @@ const CostObjectTree = ({ name, obj }) => {
                     )))}
                 </ul>
             )}
-
-        </li>
-    );
-    
+        </div>
+    );  
 };
+
+const calculateCost = (obj) => {
+    let totalCost = 0;
+    // Create a deep copy of the obj object
+    const objCopy = JSON.parse(JSON.stringify(obj));
+    // DFS traversal
+    const dfs = (node) => {
+        if (typeof node === 'object') {
+            // Get the cost from currVal (totalCost is global here)
+            if (node.currVal) totalCost += node.currVal;
+            // Recursively traverse children if selected
+            if (node.selected && !node.currVal)  Object.values(node).forEach(child => dfs(child));
+        }
+    };
+    Object.values(objCopy).forEach(child=>dfs(child));
+    return totalCost;
+};
+
 
 export default function TestingPage2() {
     const { category } = useParams();
     const costFactors = Category_costFactors[category]; // Cost Factors for current event.
-    const [amt,setAmt] = useState(0)
+    const [amt,setAmt] = useState(false);
 
     // Function to add 'selected: false' to each object and their children recursively
     const addSelectedKey = (obj) => {
@@ -108,47 +105,15 @@ export default function TestingPage2() {
             acc[factor] = obj;
             return acc;
         }, {});
-    
-    // Calculates the cost.
-    const calculateCost = (obj) => {
-        // Initialize total cost
-        let totalCost = 0;
-    
-        // Helper function for DFS traversal
-        const dfs = (node) => {
-            // Check if node is an object
-            if (typeof node === 'object') {
-                // Check if node is selected or has currVal
-                if (node.selected) {
-                    totalCost += node.currVal || 0;
-                } else if (node.currVal) {
-                    totalCost += node.currVal;
-                }
-    
-                // Recursively traverse children
-                Object.values(node).forEach(child => dfs(child));
-            }
-        };
-    
-        // Start DFS traversal from the root object
-        dfs(obj);
-    
-        // Return the total cost
-        return totalCost;
-    };
-    
 
     return (
         <div className="mainWrapper">
-            <h1>Price Estimator for {category}</h1>
-            <br />
-            <ul>
-                {Object.values(CostObj).map((item, index) => (
-                    <CostObjectTree key={index} name={item.name} obj={item} />
-                ))}
-            </ul>
-            <button onClick={() => {setAmt(calculateCost(CostObj))}}> Calculate </button>
-            Total Cost: {amt} (Note: Hit Calculate to get the updated result)
+            <div className="pageHead">Price Estimator for {category}</div>
+            {Object.values(CostObj).map((item, index) => (
+                <CostObjectTree key={index} name={item.name} obj={item} />
+            ))}
+            <button className="calculateBtn" onClick={() => {setAmt(calculateCost(CostObj));}}> Calculate </button>
+            {amt && <div className="ResultClass"> Amount: {amt} </div>}
         </div>
     );
 }
