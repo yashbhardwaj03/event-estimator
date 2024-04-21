@@ -70,18 +70,21 @@
         "Catering": {
             "Full-Service Catering": {
                 "Capacity": 100,
+                "perPerson": true,
                 "P": 50000,
                 "N": 20000,
                 "L": 10000
             },
             "Buffet-Style Catering": {
                 "Capacity": 50,
+                "perPerson": true,
                 "P": 40000,
                 "N": 15000,
                 "L": 8000
             },
             "Basic Catering": {
                 "Capacity": 20,
+                "perPerson": true,
                 "P": 30000,
                 "N": 10000,
                 "L": 5000
@@ -279,6 +282,7 @@
             "L": 2000
         },
         "Quantity": {
+            "perPerson": true,
             "P": 2000,
             "N": 1000,
             "L": 500
@@ -294,6 +298,7 @@
             "L": 1000
         },
         "Envelopes": {
+            "perPerson": true,
             "P": 2000,
             "N": 1000,
             "L": 500
@@ -306,16 +311,19 @@
     },
     "Favors/Gifts Type": {
         "Customized Gifts": {
+            "perPerson": true,
             "P": 500,
             "N": 200,
             "L": 50
         },
         "Themed Goodie Bags": {
+            "perPerson": true,
             "P": 300,
             "N": 150,
             "L": 50
         },
         "Personalized Keepsakes": {
+            "perPerson": true,
             "P": 1000,
             "N": 500,
             "L": 200
@@ -326,6 +334,7 @@
             "L": 200
         },
         "DIY Crafts": {
+            "perPerson": true,
             "P": 500,
             "N": 200,
             "L": 50
@@ -334,16 +343,19 @@
     "Miscellaneous Expenses": {
         "Food and Drinks": {
             "Catering": {
+                "perPerson": true,
                 "P": 50000,
                 "N": 20000,
                 "L": 10000
             },
             "Bar Services": {
+                "perPerson": true,
                 "P": 30000,
                 "N": 15000,
                 "L": 5000
             },
             "Specialty Items": {
+                "perPerson": true,
                 "P": 10000,
                 "N": 5000,
                 "L": 2000
@@ -395,6 +407,7 @@
                 "L": 1000
             },
             "Postage": {
+                "perPerson": true,
                 "P": 5000,
                 "N": 2000,
                 "L": 1000
@@ -402,6 +415,7 @@
         },
         "Party Favors/Gifts": {
             "Gift Bags": {
+                "perPerson": true,
                 "P": 10000,
                 "N": 5000,
                 "L": 2000
@@ -535,6 +549,7 @@
             "L": 1000
         },
         "Registration Materials (Badges, Lanyards, etc.)": {
+            "perPerson": true,
             "P": 5000,
             "N": 2000,
             "L": 1000
@@ -686,6 +701,7 @@
     },
     "Travel Expenses": {
         "Travel": {
+            "perPerson": true,
             "P": 5000,
             "N": 2000,
             "L": 500
@@ -730,26 +746,31 @@
     },
     "Refreshments": {
         "Catering": {
+            "perPerson": true,
             "P": 20000,
             "N": 10000,
             "L": 5000
         },
         "Beverages": {
+            "perPerson": true,
             "P": 10000,
             "N": 5000,
             "L": 2000
         },
         "Snacks/Food": {
+            "perPerson": true,
             "P": 10000,
             "N": 5000,
             "L": 2000
         },
         "Desserts": {
+            "perPerson": true,
             "P": 5000,
             "N": 2000,
             "L": 1000
         },
         "Specialty Items": {
+            "perPerson": true,
             "P": 10000,
             "N": 5000,
             "L": 2000
@@ -784,6 +805,7 @@
     },
     "Utensils": {
         "Cooking Utensils": {
+            "perPerson": true,
             "P": 5000,
             "N": 2000,
             "L": 500
@@ -806,11 +828,13 @@
     },
     "Volunteer Expenses": {
         "T-shirts/Apparel": {
+            "perPerson": true,
             "P": 5000,
             "N": 2000,
             "L": 500
         },
         "Refreshments": {
+            "perPerson": true,
             "P": 5000,
             "N": 2000,
             "L": 500
@@ -826,6 +850,7 @@
             "L": 1000
         },
         "Training/Materials": {
+            "perPerson": true,
             "P": 5000,
             "N": 2000,
             "L": 500
