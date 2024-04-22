@@ -10,6 +10,15 @@ function Navbar({ activeLink }) {
     { name: 'Create', href: '/create', icon: <CgAddR className='size-6'/> },
     { name: 'Events', href: '/events', icon: <PiNotepad className='size-6'/> },
   ];
+
+  const history = useHistory();
+
+    const handleButtonClick = () => {
+        // Navigate to the '/about' page
+        history.push('/testing');
+    };
+
+
   return (
     <nav
       className={`fixed bottom-0 w-full rounded-t-lg bg-black text-white p-4 flex justify-center items-center md:justify-center md:left-auto md:p-2 md:rounded-t-lg`}
