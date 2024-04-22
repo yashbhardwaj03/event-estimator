@@ -11,13 +11,6 @@ function Navbar({ activeLink }) {
     { name: 'Events', href: '/events', icon: <PiNotepad className='size-6'/> },
   ];
 
-  const history = useHistory();
-
-    const handleButtonClick = () => {
-        // Navigate to the '/about' page
-        history.push('/testing');
-    };
-
 
   return (
     <nav

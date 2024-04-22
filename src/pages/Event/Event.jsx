@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import partyData from '../../assets/Party to Category.json';
-import './TestingPage1.css'
+import './Event.css'
 import { Link } from "react-router-dom";
 
-export default function TestingPage() {
+export default function Event() {
     // useState hook to manage the party data state
     const [groupedParties, setGroupedParties] = useState(null);
 
@@ -38,7 +38,7 @@ export default function TestingPage() {
                   <div className="sectionCategoryHead">{category}</div>
                   <div className="sectionItemsContainer">
                     {parties.map(party => (
-                      <Link to={`/testing/${category}`} className='partyBox' key={party}>{party}</Link>
+                      <Link to={`/event/${category}`} className='partyBox' key={party}>{party}</Link>
                     ))}
                   </div>
                 </div>

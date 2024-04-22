@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import './TestingPage2.css';
+import './CostEstimator.css';
 import Category_costFactors from '../../assets/Category to Cost Factors.json';
 import CostFactors_Cost from '../../assets/Cost Factors to Cost.json';
 
@@ -66,7 +66,7 @@ const CostObjectTree = ({ name, obj }) => {
 };
 
 
-export default function TestingPage2() {
+export default function CostEstimator() {
     const { category } = useParams();
     const costFactors = Category_costFactors[category]; // Cost Factors for current event.
     const [amt,setAmt] = useState(false);
