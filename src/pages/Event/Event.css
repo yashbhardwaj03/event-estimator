@@ -43,15 +43,32 @@
     min-width: 200px;   max-width: 200px;   height: 240px;
 
     border-radius: 10px;    font-size: 16px;    font-weight: 400;
-    padding: 10px;
+    padding: 10px;  transition: 0.3s;
     background-color: black;    color: white;
-}
+} .partyBox:hover {font-size: 18px; font-weight: 500;}
 
 .searchWrapper {
     display: flex;  align-items: center;    justify-content: center;
+    flex-direction: column;
 
-    width: 100%;    padding: 10px;
+    width: 100%;    height: auto;    padding: 10px;
 }
+
+.trendingSection {
+    display: flex;  align-items: flex-start;    justify-content: flex-start;
+    flex-direction: row;
+
+    width: fit-content;     min-width: 280px;   padding: 10px;
+    overflow-y: auto;   gap: 10px;
+}
+
+.trendingItem {
+    display: flex;  align-items: center;    justify-content: center;
+
+    width: auto;    min-width: fit-content;    height: 40px;   padding: 20px;  border-radius: 25px;
+    color: white;   background-color: black;    font-weight: 500;
+    transition: 0.3s;
+} .trendingItem:hover {transform: translateY(-5px);}
 
 .searchParties {
     display: flex;

@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/Home/HomePage';
 import CostEstimator from './pages/Event/CostEstimator';
 import Event from './pages/Event/Event';
+import CreateEvent from './pages/Create/CreateEvent';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<HomePage/>} />
           <Route path='event' element={<Event/>} />
           <Route path='event/:category' element={<CostEstimator/>} />
+          <Route path='/create' element={<CreateEvent/>} />
           <Route path='*' element={<HomePage/>} />
         </Routes>
       </BrowserRouter>
