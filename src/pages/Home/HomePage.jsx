@@ -12,48 +12,11 @@ import './HomePage.css'
 
 
 function HomePage() {
-
-  const card = [
-    {
-      imageSrc: 'path/to/image1.jpg',
-      title: 'Card Title 1',
-      description: 'This is a description of card 1.',
-      category: 'party',
-    },
-    {
-      imageSrc: 'path/to/image1.jpg',
-      title: 'Card Title 2',
-      description: 'This is a description of card 2.',
-      category: 'meeting',
-    },
-    {
-      imageSrc: 'path/to/image1.jpg',
-      title: 'Card Title 3',
-      description: 'This is a description of card 3.',
-      category: 'ceremoney',
-    },
-    {
-      imageSrc: 'path/to/image1.jpg',
-      title: 'Card Title 4',
-      description: 'This is a description of card 4.',
-      category: 'meetup',
-    },
-    {
-      imageSrc: 'path/to/image1.jpg',
-      title: 'Card Title 5',
-      description: 'This is a description of card 5.',
-      category: 'party',
-    },
-    
-  ];
-
   const [activeLink, setActiveLink] = React.useState('Home'); // Initial active link
-
-
   return (
     <div className="min-h-screen font-sans">
       <Hero/>
-      <EventTypes events={card} />
+      <EventTypes />
       <Timeline/>
       <Feedback/>
       <Footer/>

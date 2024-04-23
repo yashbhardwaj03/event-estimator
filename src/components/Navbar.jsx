@@ -8,7 +8,7 @@ function Navbar({ activeLink }) {
   const links = [
     { name: 'Home', href: '/', icon: <GoHome className='size-6' /> },
     { name: 'Create', href: '/create', icon: <CgAddR className='size-6'/> },
-    { name: 'Events', href: '/events', icon: <PiNotepad className='size-6'/> },
+    { name: 'Events', href: '/event', icon: <PiNotepad className='size-6'/> },
   ];
 
 
@@ -24,7 +24,7 @@ function Navbar({ activeLink }) {
               activeLink === link.name ? 'bg-gray-900' : ''
             }`}
           >
-            <Link href={link.href} className='flex flex-col justify-center items-center'>{link.icon}<span className="text-xs">{link.name}</span></Link>
+            <Link to={link.href} className='flex flex-col justify-center items-center'>{link.icon}<span className="text-xs">{link.name}</span></Link>
           </li>
         ))}
       </ul>
